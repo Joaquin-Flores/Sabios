@@ -1,0 +1,20 @@
+palette {
+    color: #040316; /*Texto*/
+    color: #fbfbfe; /*Fondo*/
+    color:#ffd900; /*Primario*/
+    color: #58c8d0; /*Secundario*/
+    color: #9c111f; /*Acento*/
+}
+fonts {
+    font-family: Poppins; /*Para títulos*/
+    font-family: Nunito; /*Para cuerpo*/
+    font-family: playfair-display; /*Para algún detalle*/
+}
+slogan {
+    text-rendering:  Sabios, el que no sabe, aprende…; /*Slogan*/
+    text-rendering:  Sabios, el que sabe, gana El que no sabe, aprende…; /*Slogan*/
+    text-rendering:  Pon a prueba tu fe, pero no pongas a prueba a Dios;
+    text-rendering:  Si no sabes la respuesta, reza un Ave María y sigue jugando;
+    text-rendering: La fe es la clave, la trivia la prueba, ¡y en Sabios, tu mente se eleva!;
+    text-rendering: Sabios, ¡Pero no tanto!;
+}
