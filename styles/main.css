@@ -18,3 +18,52 @@ slogan {
     text-rendering: La fe es la clave, la trivia la prueba, ¡y en Sabios, tu mente se eleva!;
     text-rendering: Sabios, ¡Pero no tanto!;
 }
+body{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    background-color: #9c111f;
+}
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #9c111f;
+    font-size: 121px;
+    margin: auto;
+}
+h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #9c111f;
+    font-size: 49px;
+    margin: auto;
+}
+h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #9c111f;
+    font-size: 36px;
+    margin: auto;
+}
+button {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 30px;
+    font-size: 25px;
+    background-color: #ffd900;
+    color: #040316;
+    border: none;
+    cursor: pointer;
+    border-radius: 200px;
+    font-weight: bold;
+    font-variant-caps: all-small-caps;
+    transition: background 0.3s;
+}
+button:hover {
+    background-color: #e6c000;
+}
+.tarjeta {
+    background-color: #fafafa;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin: 100px auto;
+    padding: 50px;
+    border-radius: 10px;
+}
