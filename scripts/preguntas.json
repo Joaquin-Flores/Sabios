@@ -1,82 +1,82 @@
 {
     "Historia de la Iglesia": {
       "Fácil": [
-        { "question": "¿Qué emperador romano legalizó el cristianismo ?", "answers": ["Constantino", "Nerón", "Juliano", "Diocleciano"], "correct": 0 },
-        { "question": "¿Quién fue el papa que instituyó el calendario gregoriano?", "answers": ["Gregorio XIII", "Pío V", "León X", "Inocencio III"], "correct": 0 },
-        { "question": "¿Quién fue el primer papa de la historia?", "answers": ["San Pedro", "San Juan", "San Pablo", "San Andrés"], "correct": 0 }
+        { "pregunta": "¿Qué emperador romano legalizó el cristianismo ?", "respuestas": ["Constantino", "Nerón", "Juliano", "Diocleciano"], "correcta": 0 },
+        { "pregunta": "¿Quién fue el papa que instituyó el calendario gregoriano?", "respuestas": ["Gregorio XIII", "Pío V", "León X", "Inocencio III"], "correcta": 0 },
+        { "pregunta": "¿Quién fue el primer papa de la historia?", "respuestas": ["San Pedro", "San Juan", "San Pablo", "San Andrés"], "correcta": 0 }
       ],
       "Medio": [
-        { "question": "¿Qué papa convocó el Concilio Vaticano II?", "answers": ["Juan XXIII", "Pablo VI", "Pío XII", "Benedicto XV"], "correct": 0 },
-        { "question": "¿En qué año ocurrió el Cisma de Oriente?", "answers": ["1054", "1517", "800", "431"], "correct": 0 },
-        { "question": "¿Qué orden religiosa fundó San Ignacio de Loyola?", "answers": ["Jesuitas", "Franciscanos", "Dominicos", "Benedictinos"], "correct": 0 }
+        { "pregunta": "¿Qué papa convocó el Concilio Vaticano II?", "respuestas": ["Juan XXIII", "Pablo VI", "Pío XII", "Benedicto XV"], "correcta": 0 },
+        { "pregunta": "¿En qué año ocurrió el Cisma de Oriente?", "respuestas": ["1054", "1517", "800", "431"], "correcta": 0 },
+        { "pregunta": "¿Qué orden religiosa fundó San Ignacio de Loyola?", "respuestas": ["Jesuitas", "Franciscanos", "Dominicos", "Benedictinos"], "correcta": 0 }
       ],
       "Difícil": [
-        { "question": "¿Cuál de estos concilios definió el dogma de la Inmaculada Concepción?", "answers": ["Concilio de Trento", "Concilio Vaticano I", "Concilio de Éfeso", "Ninguno, fue un decreto papal"], "correct": 3 },
-        { "question": "¿En qué siglo tuvo lugar el Concilio de Nicea?", "answers": ["Siglo IV", "Siglo III", "Siglo V", "Siglo VI"], "correct": 0 },
-        { "question": "¿Qué concilio condenó la herejía arriana?", "answers": ["Nicea I", "Éfeso", "Trento", "Calcedonia"], "correct": 0 }
+        { "pregunta": "¿Cuál de estos concilios definió el dogma de la Inmaculada Concepción?", "respuestas": ["Concilio de Trento", "Concilio Vaticano I", "Concilio de Éfeso", "Ninguno, fue un decreto papal"], "correcta": 3 },
+        { "pregunta": "¿En qué siglo tuvo lugar el Concilio de Nicea?", "respuestas": ["Siglo IV", "Siglo III", "Siglo V", "Siglo VI"], "correcta": 0 },
+        { "pregunta": "¿Qué concilio condenó la herejía arriana?", "respuestas": ["Nicea I", "Éfeso", "Trento", "Calcedonia"], "correcta": 0 }
       ],
       "Final Boss": [
-        { "question": "¿Qué emperador ordenó la última gran persecución contra los cristianos?", "answers": ["Diocleciano", "Nerón", "Domiciano", "Marco Aurelio"], "correct": 0 }
+        { "pregunta": "¿Qué emperador ordenó la última gran persecución contra los cristianos?", "respuestas": ["Diocleciano", "Nerón", "Domiciano", "Marco Aurelio"], "correcta": 0 }
       ]
     },
     "Doctrina": {
       "Fácil": [
-        { "question": "¿Cuántos sacramentos hay en la Iglesia Católica?", "answers": ["Siete", "Cinco", "Tres", "Doce"], "correct": 0 },
-        { "question": "¿Qué es la Santísima Trinidad?", "answers": ["Un solo Dios en tres personas", "Tres dioses distintos", "Un concepto filosófico", "Una enseñanza opcional"], "correct": 0 },
-        { "question": "¿Cuál es el mandamiento más importante según Jesús?", "answers": ["Amar a Dios sobre todas las cosas", "No robar", "No matar", "Santificar las fiestas"], "correct": 0 }
+        { "pregunta": "¿Cuántos sacramentos hay en la Iglesia Católica?", "respuestas": ["Siete", "Cinco", "Tres", "Doce"], "correcta": 0 },
+        { "pregunta": "¿Qué es la Santísima Trinidad?", "respuestas": ["Un solo Dios en tres personas", "Tres dioses distintos", "Un concepto filosófico", "Una enseñanza opcional"], "correcta": 0 },
+        { "pregunta": "¿Cuál es el mandamiento más importante según Jesús?", "respuestas": ["Amar a Dios sobre todas las cosas", "No robar", "No matar", "Santificar las fiestas"], "correcta": 0 }
       ],
       "Medio": [
-        { "question": "¿Qué significa la palabra 'Eucaristía'?", "answers": ["Acción de gracias", "Cena sagrada", "Cuerpo de Cristo", "Oración litúrgica"], "correct": 0 },
-        { "question": "¿Qué es el pecado original?", "answers": ["El pecado de Adán y Eva", "Un pecado muy grave", "Una invención medieval", "No existe"], "correct": 0 },
-        { "question": "¿Qué es el dogma de la Asunción de María?", "answers": ["Que María fue llevada en cuerpo y alma al cielo", "Que María es la madre de Jesús", "Que María nació sin pecado original", "Que María ascendió como Jesús"], "correct": 0 }
+        { "pregunta": "¿Qué significa la palabra 'Eucaristía'?", "respuestas": ["Acción de gracias", "Cena sagrada", "Cuerpo de Cristo", "Oración litúrgica"], "correcta": 0 },
+        { "pregunta": "¿Qué es el pecado original?", "respuestas": ["El pecado de Adán y Eva", "Un pecado muy grave", "Una invención medieval", "No existe"], "correcta": 0 },
+        { "pregunta": "¿Qué es el dogma de la Asunción de María?", "respuestas": ["Que María fue llevada en cuerpo y alma al cielo", "Que María es la madre de Jesús", "Que María nació sin pecado original", "Que María ascendió como Jesús"], "correcta": 0 }
       ],
       "Difícil": [
-        { "question": "¿Cuál es la principal diferencia entre transubstanciación y consubstanciación?", "answers": ["La presencia real de Cristo en la Eucaristía", "La duración del efecto sacramental", "El modo en que se administra la comunión", "El número de veces que se puede recibir"], "correct": 0 },
-        { "question": "¿Qué concilio definió la infalibilidad papal?", "answers": ["Vaticano I", "Trento", "Nicea II", "Lateranense IV"], "correct": 0 },
-        { "question": "¿Qué significa 'ex cathedra'?", "answers": ["Desde la cátedra, con autoridad papal", "Un decreto litúrgico", "Una enseñanza opcional", "Una carta pastoral"], "correct": 0 }
+        { "pregunta": "¿Cuál es la principal diferencia entre transubstanciación y consubstanciación?", "respuestas": ["La presencia real de Cristo en la Eucaristía", "La duración del efecto sacramental", "El modo en que se administra la comunión", "El número de veces que se puede recibir"], "correcta": 0 },
+        { "pregunta": "¿Qué concilio definió la infalibilidad papal?", "respuestas": ["Vaticano I", "Trento", "Nicea II", "Lateranense IV"], "correcta": 0 },
+        { "pregunta": "¿Qué significa 'ex cathedra'?", "respuestas": ["Desde la cátedra, con autoridad papal", "Un decreto litúrgico", "Una enseñanza opcional", "Una carta pastoral"], "correcta": 0 }
       ],
       "Final Boss": [
-        { "question": "¿Qué significa la palabra 'Católica'?", "answers": ["Universal", "Santa", "Apostólica", "Eclesial"], "correct": 0 }
+        { "pregunta": "¿Qué significa la palabra 'Católica'?", "respuestas": ["Universal", "Santa", "Apostólica", "Eclesial"], "correcta": 0 }
       ]
     },
     "Santos": {
       "Fácil": [
-        { "question": "¿Quién es el patrono de los animales y el medio ambiente?", "answers": ["San Francisco de Asís", "San Antonio de Padua", "San Benito", "San Martín de Porres"], "correct": 0 },
-        { "question": "¿Qué santa tuvo visiones del Sagrado Corazón de Jesús y promovió su devoción?", "answers": ["Santa Faustina Kowalska", "Santa Margarita María de Alacoque", "Santa Teresa de Ávila", "Santa Catalina de Siena"], "correct": 1 },
-        { "question": "¿Quién es el patrono de los estudiantes y de los teólogos?", "answers": ["San Alberto Magno", "San Agustín", "Santo Tomás de Aquino", "San Buenaventura"], "correct": 2 }
+        { "pregunta": "¿Quién es el patrono de los animales y el medio ambiente?", "respuestas": ["San Francisco de Asís", "San Antonio de Padua", "San Benito", "San Martín de Porres"], "correcta": 0 },
+        { "pregunta": "¿Qué santa tuvo visiones del Sagrado Corazón de Jesús y promovió su devoción?", "respuestas": ["Santa Faustina Kowalska", "Santa Margarita María de Alacoque", "Santa Teresa de Ávila", "Santa Catalina de Siena"], "correcta": 1 },
+        { "pregunta": "¿Quién es el patrono de los estudiantes y de los teólogos?", "respuestas": ["San Alberto Magno", "San Agustín", "Santo Tomás de Aquino", "San Buenaventura"], "correcta": 2 }
       ],
       "Medio": [
-        { "question": "¿A qué santo se le atribuye la famosa frase 'Mi corazón está inquieto hasta que descanse en Ti'?", "answers": ["San Agustín", "San Juan de la Cruz", "San Ignacio de Loyola", "San Francisco de Sales"], "correct": 0 },
-        { "question": "¿Quién fue el primer santo canonizado oficialmente por la Iglesia?", "answers": ["San Pedro", "San Francisco de Asís", "San Ulrico", "San Benito"], "correct": 2 },
-        { "question": "¿Qué santa escribió El Libro de la Vida y fundó la Orden de las Carmelitas Descalzas?", "answers": ["Santa Teresa de Ávila", "Santa Catalina de Siena", "Santa Rosa de Lima", "Santa Hildegarda de Bingen"], "correct": 0 }
+        { "pregunta": "¿A qué santo se le atribuye la famosa frase 'Mi corazón está inquieto hasta que descanse en Ti'?", "respuestas": ["San Agustín", "San Juan de la Cruz", "San Ignacio de Loyola", "San Francisco de Sales"], "correcta": 0 },
+        { "pregunta": "¿Quién fue el primer santo canonizado oficialmente por la Iglesia?", "respuestas": ["San Pedro", "San Francisco de Asís", "San Ulrico", "San Benito"], "correcta": 2 },
+        { "pregunta": "¿Qué santa escribió El Libro de la Vida y fundó la Orden de las Carmelitas Descalzas?", "respuestas": ["Santa Teresa de Ávila", "Santa Catalina de Siena", "Santa Rosa de Lima", "Santa Hildegarda de Bingen"], "correcta": 0 }
       ],
       "Difícil": [
-        { "question": "¿Quién fue el primer mártir cristiano?", "answers": ["San Pablo", "San Esteban", "San Ignacio de Antioquía", "San Pedro"], "correct": 1 },
-        { "question": "¿Cuál de estos santos es Doctor de la Iglesia?", "answers": ["San Francisco Javier", "San Juan Bosco", "San Juan Crisóstomo", "San Antonio de Padua"], "correct": 2 },
-        { "question": "¿Quién fundó la Orden de los Jesuitas?", "answers": ["San Francisco de Asís", "San Ignacio de Loyola", "San Benito", "San Juan Bautista de La Salle"], "correct": 1 }
+        { "pregunta": "¿Quién fue el primer mártir cristiano?", "respuestas": ["San Pablo", "San Esteban", "San Ignacio de Antioquía", "San Pedro"], "correcta": 1 },
+        { "pregunta": "¿Cuál de estos santos es Doctor de la Iglesia?", "respuestas": ["San Francisco Javier", "San Juan Bosco", "San Juan Crisóstomo", "San Antonio de Padua"], "correcta": 2 },
+        { "pregunta": "¿Quién fundó la Orden de los Jesuitas?", "respuestas": ["San Francisco de Asís", "San Ignacio de Loyola", "San Benito", "San Juan Bautista de La Salle"], "correcta": 1 }
       ],
       "Final Boss": [
-        { "question": "¿Qué santo tuvo los estigmas y es conocido como el fraile que podía bilocarse?", "answers": ["San Francisco de Asís", "San Pío de Pietrelcina", "San Juan de la Cruz", "San Benito"], "correct": 1 }
+        { "pregunta": "¿Qué santo tuvo los estigmas y es conocido como el fraile que podía bilocarse?", "respuestas": ["San Francisco de Asís", "San Pío de Pietrelcina", "San Juan de la Cruz", "San Benito"], "correcta": 1 }
       ]
     },
     "Biblia": {
       "Fácil": [
-        { "question": "¿En qué ciudad nació Jesús?", "answers": ["Nazaret", "Jerusalén", "Belén", "Cafarnaúm"], "correct": 2 },
-        { "question": "¿Quién construyó el arca para salvarse del diluvio?", "answers": ["Moisés", "Abraham", "Noé", "Elías"], "correct": 2 },
-        { "question": "¿Cuántos evangelios hay en la Biblia?", "answers": ["2", "4", "5", "3"], "correct": 1 }
+        { "pregunta": "¿En qué ciudad nació Jesús?", "respuestas": ["Nazaret", "Jerusalén", "Belén", "Cafarnaúm"], "correcta": 2 },
+        { "pregunta": "¿Quién construyó el arca para salvarse del diluvio?", "respuestas": ["Moisés", "Abraham", "Noé", "Elías"], "correcta": 2 },
+        { "pregunta": "¿Cuántos evangelios hay en la Biblia?", "respuestas": ["2", "4", "5", "3"], "correcta": 1 }
       ],
       "Medio": [
-        { "question": "¿Cómo se llamaban los hijos de Adán y Eva mencionados en la Biblia?", "answers": ["Moisés y Aarón", "Abraham e Isaac", "Caín, Abel y Set", "Jacob y Esaú"], "correct": 2 },
-        { "question": "¿Qué personaje bíblico fue tragado por un gran pez?", "answers": ["Elías", "Jonás", "David", "Pablo"], "correct": 1 },
-        { "question": "¿Quién escribió la mayoría de las cartas del Nuevo Testamento?", "answers": ["San Pedro", "San Pablo", "San Juan", "Santiago"], "correct": 1 }
+        { "pregunta": "¿Cómo se llamaban los hijos de Adán y Eva mencionados en la Biblia?", "respuestas": ["Moisés y Aarón", "Abraham e Isaac", "Caín, Abel y Set", "Jacob y Esaú"], "correcta": 2 },
+        { "pregunta": "¿Qué personaje bíblico fue tragado por un gran pez?", "respuestas": ["Elías", "Jonás", "David", "Pablo"], "correcta": 1 },
+        { "pregunta": "¿Quién escribió la mayoría de las cartas del Nuevo Testamento?", "respuestas": ["San Pedro", "San Pablo", "San Juan", "Santiago"], "correcta": 1 }
       ],
       "Difícil": [
-        { "question": "¿En qué monte recibió Moisés los Diez Mandamientos?", "answers": ["Monte Sinaí", "Monte Carmelo", "Monte de los Olivos", "Monte Sión"], "correct": 0 },
-        { "question": "¿Quién fue el último profeta del Antiguo Testamento antes de la llegada de Jesús?", "answers": ["Isaías", "Malaquías", "Jeremías", "Daniel"], "correct": 1 },
-        { "question": "¿Cuál de estos libros es considerado sapiencial?", "answers": ["Isaías", "Job", "Levítico", "Josué"], "correct": 1 }
+        { "pregunta": "¿En qué monte recibió Moisés los Diez Mandamientos?", "respuestas": ["Monte Sinaí", "Monte Carmelo", "Monte de los Olivos", "Monte Sión"], "correcta": 0 },
+        { "pregunta": "¿Quién fue el último profeta del Antiguo Testamento antes de la llegada de Jesús?", "respuestas": ["Isaías", "Malaquías", "Jeremías", "Daniel"], "correcta": 1 },
+        { "pregunta": "¿Cuál de estos libros es considerado sapiencial?", "respuestas": ["Isaías", "Job", "Levítico", "Josué"], "correcta": 1 }
       ],
       "Final Boss": [
-        { "question": "¿Cuántos capítulos tiene el libro más largo de la Biblia, el Salmo 119?", "answers": ["100", "150", "176", "200"], "correct": 2 }
+        { "pregunta": "¿Cuántos capítulos tiene el libro más largo de la Biblia, el Salmo 119?", "respuestas": ["100", "150", "176", "200"], "correcta": 2 }
       ]
     }
   }
