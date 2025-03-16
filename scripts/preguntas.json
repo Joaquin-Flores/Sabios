@@ -76,7 +76,7 @@
         { "pregunta": "¿Cuál de estos libros es considerado sapiencial?", "respuestas": ["Isaías", "Job", "Levítico", "Josué"], "correcta": 1 }
       ],
       "Final Boss": [
-        { "pregunta": "¿Cuántos capítulos tiene el libro más largo de la Biblia, el Salmo 119?", "respuestas": ["100", "150", "176", "200"], "correcta": 2 }
+        { "pregunta": "¿Cuántos versiculos tiene el capitulo más largo de la Biblia, el Salmo 119?", "respuestas": ["100", "150", "176", "200"], "correcta": 2 }
       ]
     }
   }
