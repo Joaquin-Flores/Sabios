@@ -15,14 +15,15 @@
         <br>
         <button id="botonJugar" onclick="clickJugar()">Jugar</button>
         <div id="dificultades">
-            <button class="botonDificultad" data-difficulty="Fácil">Fácil</button>
-            <button class="botonDificultad" data-difficulty="Medio">Medio</button>
-            <button class="botonDificultad" data-difficulty="Difícil">Difícil</button>
+            <button class="botonDificultad" onclick="seleccionarDificultad('Fácil')">Fácil</button>
+            <button class="botonDificultad" onclick="seleccionarDificultad('Medio')">Medio</button>
+            <button class="botonDificultad" onclick="seleccionarDificultad('Difícil')">Difícil</button>
         </div>
         <button onclick="location.href='contact.html'">Contacto</button>
         <button onclick="location.href='credits.html'">Créditos</button>
         <button onclick="location.href='about.html'">Sobre el proyecto</button>
     </div>
+    
     <script src="/scripts/index.js"></script>
 </body>
 </html>

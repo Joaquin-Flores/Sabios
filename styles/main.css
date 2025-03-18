@@ -21,7 +21,8 @@ slogan {
 body{
     text-align: center;
     font-family: 'Nunito', sans-serif;
-    background-color: #9c111f;
+    background: linear-gradient(160deg, #9c111f, #c46113);
+    background: ;
 }
 h1 {
     font-family: 'Poppins', sans-serif;
@@ -60,11 +61,40 @@ button {
     border-radius: 200px;
     font-weight: bold;
     font-variant-caps: all-small-caps;
-    transition: background 0.3s;
+    transition: ease 0.3s;
+    
 }
 button:hover {
     background-color: #e6c000;
+    transform: scale(1.03);
+
 }
+
+@keyframes parpadeo {
+    0% { background-color: greenyellow; transform: scale(1); }
+    50% { background-color: #ffd900; transform: scale(1.03); }
+    100% { background-color: greenyellow; transform: scale(1); }
+}
+
+.correcta {
+    animation: parpadeo 0.4s infinite alternate;
+}
+
+#barraProgreso {
+    width: 100%;
+    height: 15px;
+    background-color: #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#progreso {
+    height: 100%;
+    background-color: #4caf50;
+    transition: width 0.5s;
+}
+
 #dificultades {
     display: none;
     width: 80%;

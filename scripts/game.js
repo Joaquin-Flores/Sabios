@@ -5,7 +5,7 @@ let puntaje = 0;
 let racha = 0;
 let vidas = 3;
 let tiempo = 20;
-let dificultad = "Fácil";
+let dificultad = sessionStorage.getItem("dificultad") || "Fácil";
 const categorias = ["Historia de la Iglesia", "Doctrina", "Santos", "Biblia"];
 let categoriaActual = categorias[3];
 let progreso = {
@@ -15,6 +15,17 @@ let progreso = {
     "Biblia": 0,
     "FinalBoss": false
 };
+
+function prepararJuego() {
+    cargarPreguntas();
+    agregarEventosUI();
+}
+
+function agregarEventosUI() {
+    let bgMusic = new Audio("/assets/sounds/gameMusic.m4a");
+    window.bgMusic = bgMusic;
+    window.bgMusic.play();
+}
 
 async function cargarPreguntas() {
     try {
@@ -64,11 +75,13 @@ function categoriaRandom() {
 
 function iniciarTiempo() {
     if (temporizador) clearInterval(temporizador);
+    tiempo = 21;
     temporizador = setInterval(() => {
         if (tiempo > 0) {
             tiempo--;
             document.getElementById("tiempo").innerText = `⏳ ${tiempo}s`;
         } else {
+            document.getElementById("sonidoFin").play();
             document.getElementById("pregunta").innerText = "TE QUEDASTE SIN TIEMPO!";
             finDelJuego();
         }
@@ -77,7 +90,9 @@ function iniciarTiempo() {
 
 function verificarRespuesta(respuestaSeleccionada) {
     let respuesta = pregunta["correcta"];
+    document.getElementById("respuesta" + respuesta).classList.add("correcta");
     if (respuestaSeleccionada === respuesta) {
+        document.getElementById("sonidoCorrecto").play();
         racha++;
         let multiplicador = racha >= 3 ? 2 : 1;
         puntaje += 100 * multiplicador;
@@ -88,19 +103,24 @@ function verificarRespuesta(respuestaSeleccionada) {
         } else {
             progreso[categoriaActual]++;
         }
+        
     } else {
+        document.getElementById("sonidoIncorrecto").play();
         vidas--;
-        puntaje -= 100;
+        puntaje = Math.max(0, puntaje - 100);   
         racha = 0;
         document.getElementById("respuesta" + respuestaSeleccionada).style.backgroundColor = "red";
         document.getElementById("respuesta" + respuesta).style.backgroundColor = "greenyellow";
         document.getElementById("pregunta").innerText = "INCORRECTO!";
     }
-
+    setTimeout(() => {
+        document.getElementById("respuesta" + respuesta).classList.remove("correcta");
+    }, 1800);
+    actualizarProgreso();
     document.getElementById("puntaje").innerText = `Puntaje: ${puntaje}`;
     document.getElementById("vidas").innerText = "❤️".repeat(vidas) + "❌".repeat(3-vidas);
-
     if (vidas <= 0) {
+        document.getElementById("sonidoFin").play();
         document.getElementById("pregunta").innerText = "TE QUEDASTE SIN VIDAS!";
         finDelJuego();
     } else {
@@ -108,6 +128,12 @@ function verificarRespuesta(respuestaSeleccionada) {
             verificarProgreso();
         }, 2000);
     }
+}
+
+function actualizarProgreso() {
+    let total = Object.values(progreso).reduce((a, b) => a + b, 0);
+    let porcentaje = (total / 12) * 100; 
+    document.getElementById("progreso").style.width = `${porcentaje}%`;
 }
 
 function verificarProgreso() {
@@ -140,10 +166,21 @@ function iniciarFinalBoss() {
 
 function finDelJuego() {
     clearInterval(temporizador);
+    tiempo = 20;
     document.getElementById("pregunta").innerText = `¡Juego terminado! Tu puntaje final es: ${puntaje}`;
     setTimeout(() => {
         window.location.href = "/pages/index.html";
     }, 3000);
 }
 
-document.addEventListener("DOMContentLoaded", cargarPreguntas);
+function activarSonidoHover () {
+    document.getElementById("sonidoHoverBotón").currentTime = 0;
+    document.getElementById("sonidoHoverBotón").play();
+}
+
+document.addEventListener("DOMContentLoaded", prepararJuego);
+document.addEventListener("DOMContentLoaded", () => {
+    let bgMusic = new Audio("/assets/sounds/cantoGregoriano.m4a");
+    window.bgMusic = bgMusic;
+    window.bgMusic.play();
+  });

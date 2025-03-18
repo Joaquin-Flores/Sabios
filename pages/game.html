@@ -6,6 +6,7 @@
     <title>Sabios - Trivia Católica</title>
     <link rel="stylesheet" href="/styles/main.css">
 </head>
+<script src="/scripts/music.js"></script>
 <body>
     <div class="tarjeta">
         <div class="header">
@@ -14,14 +15,23 @@
             <span id="tiempo">⏳ 20s</span>
         </div>
         <h4 id="categoria"></h4>
+        <div id="barraProgreso">
+            <div id="progreso" style="width: 0%"></div>
+        </div>
         <h3 id="pregunta"></h3>
         <hr>
         <br>
         <br>
-        <button id="respuesta0" onclick="verificarRespuesta(0)"></button>
-        <button id="respuesta1" onclick="verificarRespuesta(1)"></button>
-        <button id="respuesta2" onclick="verificarRespuesta(2)"></button>
-        <button id="respuesta3" onclick="verificarRespuesta(3)"></button>
+        <button id="respuesta0" onmouseover="activarSonidoHover()" onclick="verificarRespuesta(0)"></button>
+        <button id="respuesta1" onmouseover="activarSonidoHover()" onclick="verificarRespuesta(1)"></button>
+        <button id="respuesta2" onmouseover="activarSonidoHover()" onclick="verificarRespuesta(2)"></button>
+        <button id="respuesta3" onmouseover="activarSonidoHover()" onclick="verificarRespuesta(3)"></button>
+
+        <audio id="sonidoCorrecto" src="/assets/sounds/correcto.m4a"></audio>
+        <audio id="sonidoIncorrecto" src="/assets/sounds/incorrecto.m4a"></audio>
+        <audio id="sonidoFin" src="/assets/sounds/perdiste.m4a"></audio>
+        <audio id=" " src="/assets/sounds/hoverBotón.m4a"></audio>
+        
         <script src="/scripts/game.js"></script>
     </div>
 </body>
