@@ -1,61 +1,94 @@
 {
     "Historia de la Iglesia": {
       "Fácil": [
-        { "pregunta": "¿Qué emperador romano legalizó el cristianismo ?", "respuestas": ["Constantino", "Nerón", "Juliano", "Diocleciano"], "correcta": 0 },
+        { "pregunta": "¿Qué orden religiosa fundó San Ignacio de Loyola?", "respuestas": ["Jesuitas", "Franciscanos", "Dominicos", "Benedictinos"], "correcta": 0 },
         { "pregunta": "¿Quién fue el papa que instituyó el calendario gregoriano?", "respuestas": ["Gregorio XIII", "Pío V", "León X", "Inocencio III"], "correcta": 0 },
+        { "pregunta": "¿En qué ciudad fue crucificado San Pedro?", "respuestas": ["Roma", "Jerusalén", "Atenas", "Antioquía"], "correcta": 0 },
+        { "pregunta": "¿Qué significa la palabra 'Papa'?", "respuestas": ["Padre", "Obispo", "Maestro", "Pastor"], "correcta": 0 },
+        { "pregunta": "¿Qué famosa catedral gótica se encuentra en París?", "respuestas": ["Notre Dame", "San Pedro", "Sagrada Familia", "San Marcos"], "correcta": 0 },
+        { "pregunta": "¿Quién tradujo la Biblia al latín en la llamada Vulgata?", "respuestas": ["San Jerónimo", "San Ambrosio", "San Agustín", "San Pablo"], "correcta": 0 },
+        { "pregunta": "¿Qué significa la palabra 'Iglesia' en griego?", "respuestas": ["Asamblea", "Casa de Dios", "Templo", "Comunidad"], "correcta": 0 },
+        { "pregunta": "¿Cada cuanto se celebra un año jubilar?", "respuestas": ["12 años", "40 años", "25 años", "4 años"], "correcta": 2 },
         { "pregunta": "¿Quién fue el primer papa de la historia?", "respuestas": ["San Pedro", "San Juan", "San Pablo", "San Andrés"], "correcta": 0 }
       ],
       "Medio": [
+        { "pregunta": "¿Qué emperador romano legalizó el cristianismo ?", "respuestas": ["Constantino", "Nerón", "Juliano", "Diocleciano"], "correcta": 0 },
         { "pregunta": "¿Qué papa convocó el Concilio Vaticano II?", "respuestas": ["Juan XXIII", "Pablo VI", "Pío XII", "Benedicto XV"], "correcta": 0 },
         { "pregunta": "¿En qué año ocurrió el Cisma de Oriente?", "respuestas": ["1054", "1517", "800", "431"], "correcta": 0 },
-        { "pregunta": "¿Qué orden religiosa fundó San Ignacio de Loyola?", "respuestas": ["Jesuitas", "Franciscanos", "Dominicos", "Benedictinos"], "correcta": 0 }
+        { "pregunta": "¿En qué año se llevó a cabo el Concilio de Trento?", "respuestas": ["1545-1563", "325", "1054", "1962"], "correcta": 0 },
+        { "pregunta": "¿Qué símbolo usaban los primeros cristianos para identificarse?", "respuestas": ["El pez", "La cruz", "El cordero", "La paloma"], "correcta": 0 },
+        { "pregunta": "¿En que año comenzó la reforma protestante de Martín Lutero?", "respuestas": ["1299", "1683", "891", "1517"], "correcta": 3 },
+        { "pregunta": "¿Qué rey rompió con la Iglesia Católica y fundó la Iglesia Anglicana?", "respuestas": ["Enrique VIII", "Luis XIV", "Carlos V", "Fernando II"], "correcta": 0 }
+
       ],
       "Difícil": [
         { "pregunta": "¿Cuál de estos concilios definió el dogma de la Inmaculada Concepción?", "respuestas": ["Concilio de Trento", "Concilio Vaticano I", "Concilio de Éfeso", "Ninguno, fue un decreto papal"], "correcta": 3 },
+        { "pregunta": "¿Cuál fue la primera universidad católica de la historia?", "respuestas": ["Universidad de París", "Universidad de Oxford", "Universidad de Salamanca", "Universidad de Bolonia"], "correcta": 3 },
         { "pregunta": "¿En qué siglo tuvo lugar el Concilio de Nicea?", "respuestas": ["Siglo IV", "Siglo III", "Siglo V", "Siglo VI"], "correcta": 0 },
-        { "pregunta": "¿Qué concilio condenó la herejía arriana?", "respuestas": ["Nicea I", "Éfeso", "Trento", "Calcedonia"], "correcta": 0 }
+        { "pregunta": "¿Qué concilio condenó la herejía arriana?", "respuestas": ["Nicea I", "Éfeso", "Trento", "Calcedonia"], "correcta": 0 },
+        { "pregunta": "¿Cuál fue el primer país en adoptar el cristianismo como religión oficial?", "respuestas": ["Armenia", "Roma", "España", "Francia"], "correcta": 0 }
       ],
       "Final Boss": [
-        { "pregunta": "¿Qué emperador ordenó la última gran persecución contra los cristianos?", "respuestas": ["Diocleciano", "Nerón", "Domiciano", "Marco Aurelio"], "correcta": 0 }
+        { "pregunta": "¿Qué emperador ordenó la última gran persecución contra los cristianos?", "respuestas": ["Diocleciano", "Nerón", "Domiciano", "Marco Aurelio"], "correcta": 0 },
+        { "pregunta": "¿Cuál fue la encíclica en la que el Papa León XIII habló sobre la doctrina social de la Iglesia?", "respuestas": ["Rerum Novarum", "Humanae Vitae", "Lumen Gentium", "Dei Verbum"], "correcta": 0 }
       ]
     },
     "Doctrina": {
       "Fácil": [
+        { "pregunta": "¿Cuántos mandamientos entregó Dios a Moisés?", "respuestas": ["10", "7", "12", "5"], "correcta": 0 },
+        { "pregunta": "¿Qué día resucitó Jesús?", "respuestas": ["Domingo", "Sábado", "Viernes", "Lunes"], "correcta": 0 },
+        { "pregunta": "¿Qué significa la palabra 'Evangelio'?", "respuestas": ["Buena noticia", "Libro sagrado", "Historia antigua", "Palabra de Dios"], "correcta": 0 },
         { "pregunta": "¿Cuántos sacramentos hay en la Iglesia Católica?", "respuestas": ["Siete", "Cinco", "Tres", "Doce"], "correcta": 0 },
         { "pregunta": "¿Qué es la Santísima Trinidad?", "respuestas": ["Un solo Dios en tres personas", "Tres dioses distintos", "Un concepto filosófico", "Una enseñanza opcional"], "correcta": 0 },
         { "pregunta": "¿Cuál es el mandamiento más importante según Jesús?", "respuestas": ["Amar a Dios sobre todas las cosas", "No robar", "No matar", "Santificar las fiestas"], "correcta": 0 }
       ],
       "Medio": [
+        { "pregunta": "¿Cuántas personas hay en Dios según la doctrina cristiana?", "respuestas": ["Tres", "Una", "Cuatro", "Dos"], "correcta": 0 },
+        { "pregunta": "¿Cuál es la diferencia entre 'gracia actual' y 'gracia santificante'?", "respuestas": ["Una es pasajera y la otra es permanente", "Ambas son lo mismo", "Una es del Antiguo Testamento y otra del Nuevo", "No hay diferencia"], "correcta": 0 },
         { "pregunta": "¿Qué significa la palabra 'Eucaristía'?", "respuestas": ["Acción de gracias", "Cena sagrada", "Cuerpo de Cristo", "Oración litúrgica"], "correcta": 0 },
         { "pregunta": "¿Qué es el pecado original?", "respuestas": ["El pecado de Adán y Eva", "Un pecado muy grave", "Una invención medieval", "No existe"], "correcta": 0 },
         { "pregunta": "¿Qué es el dogma de la Asunción de María?", "respuestas": ["Que María fue llevada en cuerpo y alma al cielo", "Que María es la madre de Jesús", "Que María nació sin pecado original", "Que María ascendió como Jesús"], "correcta": 0 }
       ],
       "Difícil": [
         { "pregunta": "¿Cuál es la principal diferencia entre transubstanciación y consubstanciación?", "respuestas": ["La presencia real de Cristo en la Eucaristía", "La duración del efecto sacramental", "El modo en que se administra la comunión", "El número de veces que se puede recibir"], "correcta": 0 },
+        { "pregunta": "¿Qué significa 'consubstancial' en el Credo de Nicea?", "respuestas": ["De la misma esencia", "Inferior en naturaleza", "Separado pero similar", "Cercano en divinidad"], "correcta": 0 },
         { "pregunta": "¿Qué concilio definió la infalibilidad papal?", "respuestas": ["Vaticano I", "Trento", "Nicea II", "Lateranense IV"], "correcta": 0 },
         { "pregunta": "¿Qué significa 'ex cathedra'?", "respuestas": ["Desde la cátedra, con autoridad papal", "Un decreto litúrgico", "Una enseñanza opcional", "Una carta pastoral"], "correcta": 0 }
       ],
       "Final Boss": [
-        { "pregunta": "¿Qué significa la palabra 'Católica'?", "respuestas": ["Universal", "Santa", "Apostólica", "Eclesial"], "correcta": 0 }
+        { "pregunta": "¿Qué significa la palabra 'Católica'?", "respuestas": ["Universal", "Santa", "Apostólica", "Eclesial"], "correcta": 0 },
+        { "pregunta": "¿Cuál es el significado del término 'kenosis' en la teología cristiana?", "respuestas": ["El vaciamiento de Cristo en su encarnación", "La gloria de Dios manifestada", "La resurrección del cuerpo", "El sacrificio de los mártires"], "correcta": 0 }
       ]
     },
     "Santos": {
       "Fácil": [
         { "pregunta": "¿Quién es el patrono de los animales y el medio ambiente?", "respuestas": ["San Francisco de Asís", "San Antonio de Padua", "San Benito", "San Martín de Porres"], "correcta": 0 },
+        { "pregunta": "¿Quién es el patrono de los trabajadores?", "respuestas": ["San José", "San Pedro", "San Francisco", "San Pablo"], "correcta": 0 },
+        { "pregunta": "¿Quién fundó las Misioneras de la Caridad?", "respuestas": ["Madre Teresa de Calcuta", "Santa Teresa de Ávila", "Santa Clara de Asís", "Santa Catalina de Siena"], "correcta": 0 },
+        { "pregunta": "¿Qué santa tuvo los estigmas y es conocida como 'La Flor de Lis'?", "respuestas": ["Santa Rita de Casia", "Santa Teresa de Ávila", "Santa Catalina de Siena", "Santa Gemma Galgani"], "correcta": 0 },
+        { "pregunta": "¿Qué santo es conocido como el 'Apóstol de los Gentiles'?", "respuestas": ["San Pablo", "San Pedro", "San Juan", "San Andrés"], "correcta": 0 },
+        { "pregunta": "¿Cómo murió San Pablo?", "respuestas": ["Decapitado", "Crucificado boca abajo", "Lapidado", "Envenenado"], "correcta": 0 },
         { "pregunta": "¿Qué santa tuvo visiones del Sagrado Corazón de Jesús y promovió su devoción?", "respuestas": ["Santa Faustina Kowalska", "Santa Margarita María de Alacoque", "Santa Teresa de Ávila", "Santa Catalina de Siena"], "correcta": 1 },
         { "pregunta": "¿Quién es el patrono de los estudiantes y de los teólogos?", "respuestas": ["San Alberto Magno", "San Agustín", "Santo Tomás de Aquino", "San Buenaventura"], "correcta": 2 }
       ],
       "Medio": [
         { "pregunta": "¿A qué santo se le atribuye la famosa frase 'Mi corazón está inquieto hasta que descanse en Ti'?", "respuestas": ["San Agustín", "San Juan de la Cruz", "San Ignacio de Loyola", "San Francisco de Sales"], "correcta": 0 },
+        { "pregunta": "¿Qué santo es conocido como el 'Doctor Angélico'?", "respuestas": ["Santo Tomás de Aquino", "San Agustín", "San Francisco de Sales", "San Juan de la Cruz"], "correcta": 0 },
+        { "pregunta": "¿Quién escribió 'Las Confesiones'?", "respuestas": ["San Agustín", "San Jerónimo", "San Ignacio de Loyola", "San Gregorio Magno"], "correcta": 0 },
+        { "pregunta": "¿Quién fue la primera santa canonizada del continente americano?", "respuestas": ["Santa Rosa de Lima", "Santa Teresa de Los Andes", "Santa Laura Montoya", "Santa Mariana de Jesús"], "correcta": 0 },
         { "pregunta": "¿Quién fue el primer santo canonizado oficialmente por la Iglesia?", "respuestas": ["San Pedro", "San Francisco de Asís", "San Ulrico", "San Benito"], "correcta": 2 },
         { "pregunta": "¿Qué santa escribió El Libro de la Vida y fundó la Orden de las Carmelitas Descalzas?", "respuestas": ["Santa Teresa de Ávila", "Santa Catalina de Siena", "Santa Rosa de Lima", "Santa Hildegarda de Bingen"], "correcta": 0 }
       ],
       "Difícil": [
         { "pregunta": "¿Quién fue el primer mártir cristiano?", "respuestas": ["San Pablo", "San Esteban", "San Ignacio de Antioquía", "San Pedro"], "correcta": 1 },
+        { "pregunta": "¿Qué santo es considerado el patrón de los sacerdotes?", "respuestas": ["San Juan María Vianney", "San Pío de Pietrelcina", "San Francisco de Sales", "San Ignacio de Loyola"], "correcta": 0 },
+        { "pregunta": "¿Qué santo fue arzobispo de Constantinopla y es conocido como el 'Boca de Oro'?", "respuestas": ["San Juan Crisóstomo", "San Basilio", "San Gregorio Nacianceno", "San Cirilo"], "correcta": 0 },
+        { "pregunta": "¿Qué santo fundó los Dominicos?", "respuestas": ["Santo Domingo de Guzmán", "San Francisco de Asís", "San Ignacio de Loyola", "San Benito"], "correcta": 0 },
         { "pregunta": "¿Cuál de estos santos es Doctor de la Iglesia?", "respuestas": ["San Francisco Javier", "San Juan Bosco", "San Juan Crisóstomo", "San Antonio de Padua"], "correcta": 2 },
         { "pregunta": "¿Quién fundó la Orden de los Jesuitas?", "respuestas": ["San Francisco de Asís", "San Ignacio de Loyola", "San Benito", "San Juan Bautista de La Salle"], "correcta": 1 }
       ],
       "Final Boss": [
+        { "pregunta": "¿Cuál fue la última santa en ser proclamada Doctora de la Iglesia?", "respuestas": ["Santa Hildegarda de Bingen", "Santa Teresa de Ávila", "Santa Teresa de Lisieux", "Santa Catalina de Siena"], "correcta": 0 },
         { "pregunta": "¿Qué santo tuvo los estigmas y es conocido como el fraile que podía bilocarse?", "respuestas": ["San Francisco de Asís", "San Pío de Pietrelcina", "San Juan de la Cruz", "San Benito"], "correcta": 1 }
       ]
     },
@@ -63,20 +96,30 @@
       "Fácil": [
         { "pregunta": "¿En qué ciudad nació Jesús?", "respuestas": ["Nazaret", "Jerusalén", "Belén", "Cafarnaúm"], "correcta": 2 },
         { "pregunta": "¿Quién construyó el arca para salvarse del diluvio?", "respuestas": ["Moisés", "Abraham", "Noé", "Elías"], "correcta": 2 },
+        { "pregunta": "¿Quién fue la primera mujer según la Biblia?", "respuestas": ["Eva", "María", "Sara", "Rebeca"], "correcta": 0 },
+        { "pregunta": "¿Cómo se llamaban los padres de Jesús?", "respuestas": ["María y José", "Ana y Joaquín", "Elisabet y Zacarías", "Sara y Abraham"], "correcta": 0 },
+        { "pregunta": "¿Cuántos libros tiene el Antiguo Testamento en la Biblia católica?", "respuestas": ["46", "39", "27", "66"], "correcta": 0 },
         { "pregunta": "¿Cuántos evangelios hay en la Biblia?", "respuestas": ["2", "4", "5", "3"], "correcta": 1 }
       ],
       "Medio": [
         { "pregunta": "¿Cómo se llamaban los hijos de Adán y Eva mencionados en la Biblia?", "respuestas": ["Moisés y Aarón", "Abraham e Isaac", "Caín, Abel y Set", "Jacob y Esaú"], "correcta": 2 },
         { "pregunta": "¿Qué personaje bíblico fue tragado por un gran pez?", "respuestas": ["Elías", "Jonás", "David", "Pablo"], "correcta": 1 },
-        { "pregunta": "¿Quién escribió la mayoría de las cartas del Nuevo Testamento?", "respuestas": ["San Pedro", "San Pablo", "San Juan", "Santiago"], "correcta": 1 }
+        { "pregunta": "¿Quién escribió la mayoría de las cartas del Nuevo Testamento?", "respuestas": ["San Pedro", "San Pablo", "San Juan", "Santiago"], "correcta": 1 },
+        { "pregunta": "¿Qué discípulo negó a Jesús tres veces?", "respuestas": ["Pedro", "Judas", "Juan", "Tomás"], "correcta": 0 },
+        { "pregunta": "¿Cuántos días y noches estuvo Jesús en el desierto antes de ser tentado?", "respuestas": ["40", "30", "12", "7"], "correcta": 0 },
+        { "pregunta": "¿Quiénes eran los tres hijos de Noé?", "respuestas": ["Sem, Cam y Jafet", "Caín, Abel y Set", "Isaac, Jacob y Esaú", "Pedro, Juan y Santiago"], "correcta": 0 }
       ],
       "Difícil": [
         { "pregunta": "¿En qué monte recibió Moisés los Diez Mandamientos?", "respuestas": ["Monte Sinaí", "Monte Carmelo", "Monte de los Olivos", "Monte Sión"], "correcta": 0 },
         { "pregunta": "¿Quién fue el último profeta del Antiguo Testamento antes de la llegada de Jesús?", "respuestas": ["Isaías", "Malaquías", "Jeremías", "Daniel"], "correcta": 1 },
-        { "pregunta": "¿Cuál de estos libros es considerado sapiencial?", "respuestas": ["Isaías", "Job", "Levítico", "Josué"], "correcta": 1 }
+        { "pregunta": "¿Cuál de estos libros es considerado sapiencial?", "respuestas": ["Isaías", "Job", "Levítico", "Josué"], "correcta": 1 },
+        { "pregunta": "¿Quién fue el rey que soñó con una estatua hecha de diferentes materiales?", "respuestas": ["Nabucodonosor", "David", "Salomón", "Ciro"], "correcta": 0 },
+        { "pregunta": "¿En qué idioma se escribió la mayor parte del Antiguo Testamento?", "respuestas": ["Hebreo", "Griego", "Latín", "Arameo"], "correcta": 0 },
+        { "pregunta": "¿Cuál de los evangelistas no fue apóstol?", "respuestas": ["Lucas", "Mateo", "Juan", "Marcos"], "correcta": 0 }
       ],
       "Final Boss": [
-        { "pregunta": "¿Cuántos versiculos tiene el capitulo más largo de la Biblia, el Salmo 119?", "respuestas": ["100", "150", "176", "200"], "correcta": 2 }
+        { "pregunta": "¿Cuántos versiculos tiene el capitulo más largo de la Biblia, el Salmo 119?", "respuestas": ["100", "150", "176", "200"], "correcta": 2 },
+        { "pregunta": "¿Cuál es el versículo más corto de la Biblia?", "respuestas": ["'Jesús lloró' (Jn 11,35)", "'Dios es amor' (1 Jn 4,8)", "'El Señor es mi pastor' (Sal 23,1)", "'Yo soy el camino' (Jn 14,6)"], "correcta": 0 }
       ]
     }
   }

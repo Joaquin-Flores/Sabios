@@ -24,7 +24,16 @@ function prepararJuego() {
 function agregarEventosUI() {
     let bgMusic = new Audio("/assets/sounds/gameMusic.m4a");
     window.bgMusic = bgMusic;
+    window.bgMusic.volume = 0;
     window.bgMusic.play();
+    let fadeInInterval = setInterval(() => {
+        if (bgMusic.volume < 0.6) {
+            bgMusic.volume = Math.min(bgMusic.volume + 0.05, 0.6);
+        } else {
+            clearInterval(fadeInInterval); 
+        }
+    }, 600);
+    
 }
 
 async function cargarPreguntas() {
@@ -70,7 +79,9 @@ function preguntaRandom(categoriaActual, dificultad) {
 }
 
 function categoriaRandom() {
-    return categorias[Math.floor(Math.random() * categorias.length)];
+    let categoriasDisponibles = categorias.filter(cat => progreso[cat] < 3);
+    if (categoriasDisponibles.length === 0) return categorias[Math.floor(Math.random() * 4)];
+    return categoriasDisponibles[Math.floor(Math.random() * categoriasDisponibles.length)];
 }
 
 function iniciarTiempo() {
@@ -179,8 +190,3 @@ function activarSonidoHover () {
 }
 
 document.addEventListener("DOMContentLoaded", prepararJuego);
-document.addEventListener("DOMContentLoaded", () => {
-    let bgMusic = new Audio("/assets/sounds/cantoGregoriano.m4a");
-    window.bgMusic = bgMusic;
-    window.bgMusic.play();
-  });
