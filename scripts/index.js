@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  let bgMusic = new Audio("/assets/sounds/cantoGregoriano.m4a");
+  let bgMusic = new Audio("assets/sounds/cantoGregoriano.m4a");
   window.bgMusic = bgMusic;
   window.bgMusic.loop = true;
   window.bgMusic.play();
