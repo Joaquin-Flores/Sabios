@@ -22,7 +22,7 @@ function prepararJuego() {
 }
 
 function agregarEventosUI() {
-    let bgMusic = new Audio("/assets/sounds/gameMusic.m4a");
+    let bgMusic = new Audio("assets/sounds/gameMusic.m4a");
     window.bgMusic = bgMusic;
     window.bgMusic.volume = 0;
     window.bgMusic.play();
@@ -38,7 +38,7 @@ function agregarEventosUI() {
 
 async function cargarPreguntas() {
     try {
-        const response = await fetch("/scripts/preguntas.json");
+        const response = await fetch("scripts/preguntas.json");
         preguntas = await response.json();
         iniciarJuego();
     } catch (error) {
@@ -180,7 +180,7 @@ function finDelJuego() {
     tiempo = 20;
     document.getElementById("pregunta").innerText = `¡Juego terminado! Tu puntaje final es: ${puntaje}`;
     setTimeout(() => {
-        window.location.href = "/docs/index.html";
+        window.location.href = "index.html";
     }, 3000);
 }
 
