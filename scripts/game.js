@@ -180,7 +180,7 @@ function finDelJuego() {
     tiempo = 20;
     document.getElementById("pregunta").innerText = `¡Juego terminado! Tu puntaje final es: ${puntaje}`;
     setTimeout(() => {
-        window.location.href = "/pages/index.html";
+        window.location.href = "/docs/index.html";
     }, 3000);
 }
 

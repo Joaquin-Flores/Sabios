@@ -14,4 +14,3 @@ function clickJugar() {
     sessionStorage.setItem("dificultad", dificultad);
     window.location.href = "game.html";
 }
-
