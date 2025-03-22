@@ -8,20 +8,47 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Nunito:wght@400&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="tarjeta">
+    <div id="tarjetaInicio" class="tarjeta">
         <h1>Sabios</h1>
         <h3>El que sabe, gana. El que no sabe, aprende…</h3>
         <hr>
         <br>
-        <button id="botonJugar" onclick="clickJugar()">Jugar</button>
+        <button onclick="clickJugar()">Jugar</button>
+    </div>
+    <div id="tarjetaMenu" class="tarjeta" style="display: none;">
+        <h1>Sabios</h1>
+        <h3>El que sabe, gana. El que no sabe, aprende…</h3>
+        <hr>
+        <br>
         <div id="dificultades">
             <button class="botonDificultad" onclick="seleccionarDificultad('Fácil')">Fácil</button>
             <button class="botonDificultad" onclick="seleccionarDificultad('Medio')">Medio</button>
             <button class="botonDificultad" onclick="seleccionarDificultad('Difícil')">Difícil</button>
         </div>
-        <button onclick="location.href='contact.html'">Contacto</button>
-        <button onclick="location.href='credits.html'">Créditos</button>
-        <button onclick="location.href='about.html'">Sobre el proyecto</button>
+        <button onclick="mostrarContacto()">Contacto</button>
+        <button onclick="mostrarCreditos()">Créditos</button>
+        <button onclick="mostrarSobre()">Sobre el proyecto</button>
+    </div>
+    <div id="tarjetaContacto" class="tarjeta" style="display: none;">
+        <h3>Envíanos comentarios o propuestas a...</h3>
+        <h2>joaquinflores0109@gmail.com</h2>
+        <hr>
+        <br>
+        <button onclick="mostrarTarjetaMenu()">Volver</button>
+    </div>
+    <div id="tarjetaCreditos" class="tarjeta" style="display: none;">
+        <h3>Desarrollado por...</h3>
+        <h2>Joaquín Flores</h2>
+        <hr>
+        <br>
+        <button onclick="mostrarTarjetaMenu()">Volver</button>
+    </div>
+    <div id="tarjetaSobre" class="tarjeta" style="display: none;">
+        <h3>La idea fue...</h3>
+        <h2>El que no sabe, aprende…</h2>
+        <hr>
+        <br>
+        <button onclick="mostrarTarjetaMenu()">Volver</button>
     </div>
     
     <script src="scripts/index.js"></script>

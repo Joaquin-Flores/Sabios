@@ -22,23 +22,27 @@ body{
     text-align: center;
     font-family: 'Nunito', sans-serif;
     background: linear-gradient(160deg, #9c111f, #c46113);
+    height: 100vh;
+    justify-items: center;
+    align-content: center;
+    margin: 0;
 }
 h1 {
     font-family: 'Poppins', sans-serif;
     color: #9c111f;
-    font-size: 121px;
+    font-size: 19vh;
     margin: auto;
 }
 h2 {
     font-family: 'Poppins', sans-serif;
     color: #9c111f;
-    font-size: 49px;
+    font-size: 6vh;
     margin: auto;
 }
 h3 {
     font-family: 'Poppins', sans-serif;
     color: #9c111f;
-    font-size: 36px;
+    font-size: 4vh;
     margin: auto;
 }
 h4 {
@@ -51,8 +55,8 @@ button {
     display: block;
     width: 80%;
     margin: 10px auto;
-    padding: 30px;
-    font-size: 25px;
+    padding: 10px;
+    font-size: 3vh;
     background-color: #ffd900;
     color: #040316;
     border: none;
@@ -95,7 +99,7 @@ button:hover {
 }
 
 #dificultades {
-    display: none;
+    display: flex;
     width: 80%;
     margin: auto;
     font-size: 25px;
@@ -112,8 +116,7 @@ button:hover {
     background-color: #fafafa;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     width: 50%;
-    margin: 100px auto;
-    padding: 50px;
+    padding: 10px 50px 50px 50px;
     border-radius: 10px;
 }
 #categoria {
