@@ -10,23 +10,24 @@
 <body>
     <div class="tarjeta">
         <div class="header">
-            <span id="vidas" style="font-size: 40px; margin-right: 10vh;">❤️❤️❤️</span>
-            <span id="puntaje" style="font-size: 40px; margin-right: 10vh;">Puntaje: 0</span>
-            <span id="tiempo" style="font-size: 40px;">⏳ 20s</span>
+            <span id="vidas">❤️❤️❤️</span>
+            <span id="puntaje">Puntaje: 0</span>
+            <span id="tiempo">⏳ 20s</span>
         </div>
-        <h2 id="categoria"></h2>
-        <div id="barraProgreso">
-            <div id="progreso" style="width: 0%"></div>
+        <div id="cuerpo">
+            <h2 id="categoria"></h2>
+            <div id="barraProgreso">
+                <div id="progreso" style="width: 0%"></div>
+            </div>
+            <h3 id="pregunta"></h3>
+            <hr>
         </div>
-        <h3 id="pregunta"></h3>
-        <hr>
-        <br>
-        <br>
-        <button id="respuesta0" onmouseover="activarSonidoHover()" onclick="verificarRespuesta(0)"></button>
-        <button id="respuesta1" onmouseover="activarSonidoHover()" onclick="verificarRespuesta(1)"></button>
-        <button id="respuesta2" onmouseover="activarSonidoHover()" onclick="verificarRespuesta(2)"></button>
-        <button id="respuesta3" onmouseover="activarSonidoHover()" onclick="verificarRespuesta(3)"></button>
-
+        <div id="botones">
+            <button id="respuesta0" onmouseover="activarSonidoHover()" onclick="verificarRespuesta(0)"></button>
+            <button id="respuesta1" onmouseover="activarSonidoHover()" onclick="verificarRespuesta(1)"></button>
+            <button id="respuesta2" onmouseover="activarSonidoHover()" onclick="verificarRespuesta(2)"></button>
+            <button id="respuesta3" onmouseover="activarSonidoHover()" onclick="verificarRespuesta(3)"></button>
+        </div>
         <audio id="sonidoCorrecto" src="assets/sounds/correcto.m4a"></audio>
         <audio id="sonidoIncorrecto" src="assets/sounds/incorrecto.m4a"></audio>
         <audio id="sonidoFin" src="assets/sounds/perdiste.m4a"></audio>

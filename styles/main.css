@@ -98,6 +98,10 @@ button:hover {
     transition: width 0.5s;
 }
 
+#botones {
+    margin-top: 4vh;
+}
+
 #dificultades {
     display: flex;
     width: 80%;
@@ -115,12 +119,81 @@ button:hover {
 .tarjeta {
     background-color: #fafafa;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    width: 50%;
-    padding: 10px 50px 50px 50px;
+    width: 55%;
+    padding: 0% 2% 2% 2%;
     border-radius: 10px;
 }
 #categoria {
     margin: 30px 0 0 0;
     font-style: italic;
     color: #9c111f88;
+}
+#vidas {
+    font-size: 4vh;
+    margin-right: 10vh;
+}
+
+#puntaje {
+    font-size: 4vh;
+    margin-right: 10vh;
+}
+
+#tiempo {
+    font-size: 4vh;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 10vh;
+    }
+    h3{
+        font-size: 2vh;
+    }
+    .tarjeta {
+        width: 85%;
+    }
+    #pregunta {
+        font-size: 25px;
+        text-align: center;
+    }
+    #categoria {
+        font-size: 25px;
+    }
+    .opciones {
+        flex-direction: column;
+    }
+    button {
+        font-size: 16px;
+        padding: 10px;
+    }
+    #vidas {
+        font-size: 3vh;
+        margin-right: 1vh;
+    }
+    
+    #puntaje {
+        font-size: 3vh;
+        margin-right: 1vh;
+    }
+    
+    #tiempo {
+        font-size: 3vh;
+    }
+
+    #botones {
+        margin-top: 0vh;
+    }
+}
+
+/* Dispositivos medianos (tablets) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .pregunta {
+        font-size: 20px;
+    }
+    button {
+        font-size: 18px;
+    }
 }
