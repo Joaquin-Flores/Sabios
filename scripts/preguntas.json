@@ -71,11 +71,16 @@
     },
     "Santos": {
       "Fácil": [
-        { "pregunta": "¿Quién es el patrono de los animales y el medio ambiente?", "respuestas": ["San Francisco de Asís", "San Antonio de Padua", "San Benito", "San Martín de Porres"], "correcta": 0 },
-        { "pregunta": "¿Cuál de estos santos fue carpintero?", "respuestas": ["San Francisco de Asís", "San José", "San Benito", "San Lucas"], "correcta": 1 },
-        { "pregunta": "¿Cómo murió San Pablo?", "respuestas": ["Decapitado", "Crucificado boca abajo", "Lapidado", "Envenenado"], "correcta": 0 },
-        { "pregunta": "¿Qué santa tuvo visiones del Sagrado Corazón de Jesús y promovió su devoción?", "respuestas": ["Santa Faustina Kowalska", "Santa Margarita María de Alacoque", "Santa Teresa de Ávila", "Santa Catalina de Siena"], "correcta": 1 },
-        { "pregunta": "¿Quién es el patrono de los estudiantes y de los teólogos?", "respuestas": ["San Alberto Magno", "San Agustín", "Santo Tomás de Aquino", "San Buenaventura"], "correcta": 2 }
+        { "pregunta": "¿Qué santo dijo la famosa frase: 'Ama y haz lo que quieras'?", "respuestas": ["San Francisco de Asís", "San Juan Bosco", "San Agustín", "San Ignacio de Loyola"], "correcta": 2 },
+        { "pregunta": "¿Qué santo se llamaba Simón antes de que Jesús le cambiara el nombre?", "respuestas": ["Bartolomé", "Pedro", "Andrés", "Felipe"], "correcta": 1 },
+        { "pregunta": "¿Quién es el patrono de los animales y la naturaleza?", "respuestas": ["San Francisco de Asís", "San Antonio de Padua", "San Benito", "San Martín de Porres"], "correcta": 0 },
+        { "pregunta": "¿San Patricio es el santo patrono de qué país?", "respuestas": ["Escocia", "Irlanda", "Gales", "Inglaterra"], "correcta": 1 },
+        { "pregunta": "¿Con qué planta explicó San Patricio el misterio de la Santísima Trinidad?", "respuestas": ["El trébol", "La rosa", "La vid", "El trigo"], "correcta": 0 },
+        { "pregunta": "¿En qué país realizó su labor humanitaria Santa Teresa de Calcuta?", "respuestas": ["Indonesia", "Mozambique", "Síria", "India"], "correcta": 3 },
+        { "pregunta": "¿Cuál de estos santos fue carpintero?", "respuestas": ["San Jerónimo", "San José", "San Damián", "San Lucas"], "correcta": 1 },
+        { "pregunta": "¿Cómo se llamaba San Pablo antes de su conversión?", "respuestas": ["Simón", "Marco", "Saulo", "Héctor"], "correcta": 2 },
+        { "pregunta": "¿Quién es conocido como 'El disciplo amado'?", "respuestas": ["San Cipriano", "San Roque", "Santo Cura Brochero", "San Juan"], "correcta": 3 },
+        { "pregunta": "¿Cómo murió San Pablo?", "respuestas": ["Decapitado", "Crucificado boca abajo", "Lapidado", "Envenenado"], "correcta": 0 }
       ],
       "Medio": [
         { "pregunta": "¿A qué santo se le atribuye la famosa frase 'Mi corazón está inquieto hasta que descanse en Ti'?", "respuestas": ["San Agustín", "San Juan de la Cruz", "San Ignacio de Loyola", "San Francisco de Sales"], "correcta": 0 },
@@ -83,9 +88,11 @@
         { "pregunta": "¿Qué santo es conocido como el 'Apóstol de los Gentiles'?", "respuestas": ["San Pablo", "San Pedro", "San Juan", "San Andrés"], "correcta": 0 },
         { "pregunta": "¿Quién es el patrono de los trabajadores?", "respuestas": ["San José", "San Pedro", "San Francisco", "San Pablo"], "correcta": 0 },
         { "pregunta": "¿Quién fundó las Misioneras de la Caridad?", "respuestas": ["Madre Teresa de Calcuta", "Santa Teresa de Ávila", "Santa Clara de Asís", "Santa Catalina de Siena"], "correcta": 0 },
+        { "pregunta": "¿Quién es el patrono de los estudiantes y de los teólogos?", "respuestas": ["San Alberto Magno", "San Agustín", "Santo Tomás de Aquino", "San Buenaventura"], "correcta": 2 },
         { "pregunta": "¿Qué santa tuvo los estigmas y es conocida como 'La Flor de Lis'?", "respuestas": ["Santa Rita de Casia", "Santa Teresa de Ávila", "Santa Catalina de Siena", "Santa Gemma Galgani"], "correcta": 0 },
         { "pregunta": "¿Quién escribió 'Las Confesiones'?", "respuestas": ["San Agustín", "San Jerónimo", "San Ignacio de Loyola", "San Gregorio Magno"], "correcta": 0 },
         { "pregunta": "¿Quién fue la primera santa canonizada del continente americano?", "respuestas": ["Santa Rosa de Lima", "Santa Teresa de Los Andes", "Santa Laura Montoya", "Santa Mariana de Jesús"], "correcta": 0 },
+        { "pregunta": "¿Qué santa tuvo visiones del Sagrado Corazón de Jesús y promovió su devoción?", "respuestas": ["Santa Faustina Kowalska", "Santa Margarita María de Alacoque", "Santa Teresa de Ávila", "Santa Catalina de Siena"], "correcta": 1 },
         { "pregunta": "¿Quién fue el primer santo canonizado oficialmente por la Iglesia?", "respuestas": ["San Pedro", "San Francisco de Asís", "San Ulrico", "San Benito"], "correcta": 2 },
         { "pregunta": "¿Qué santa escribió El Libro de la Vida y fundó la Orden de las Carmelitas Descalzas?", "respuestas": ["Santa Teresa de Ávila", "Santa Catalina de Siena", "Santa Rosa de Lima", "Santa Hildegarda de Bingen"], "correcta": 0 }
       ],
