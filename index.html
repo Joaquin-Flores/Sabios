@@ -12,51 +12,70 @@
     gtag('js', new Date());
     gtag('config', 'G-EYE7753FGY');
     </script>
+    <link rel="icon" href="assets/images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Nunito:wght@400&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="tarjetaInicio" class="tarjeta">
+    <div id="start-card" class="card">
         <h1>Sabios</h1>
         <h3>El que sabe, gana. El que no sabe, aprende…</h3>
         <hr>
         <br>
-        <button onclick="clickJugar()">Jugar</button>
+        <button id="play-btn">Jugar</button>
     </div>
-    <div id="tarjetaMenu" class="tarjeta" style="display: none;">
-        <h1>Sabios</h1>
-        <h3>El que sabe, gana. El que no sabe, aprende…</h3>
-        <hr>
-        <br>
-        <div id="dificultades">
-            <button class="botonDificultad" onclick="seleccionarDificultad('Fácil')">Fácil</button>
-            <button class="botonDificultad" onclick="seleccionarDificultad('Medio')">Medio</button>
-            <button class="botonDificultad" onclick="seleccionarDificultad('Difícil')">Difícil</button>
+    <h2 id="stored-points"></h2>
+    <button id="shop-button" >
+        <div>
+            <i class="fa fa-shopping-cart"></i>
         </div>
-        <button onclick="mostrarContacto()">Contacto</button>
-        <button onclick="mostrarCreditos()">Créditos</button>
-        <button onclick="mostrarSobre()">Sobre el proyecto</button>
+    </button>
+    <div id="modal-shop" class="modal-shop">
+        <div class="modal-content">
+            <div id="modal-header">
+               <span class="close" id="close-modal">&times;</span>
+                <h2>¡Bienvenido a la tienda!</h2> 
+            </div>
+            <div id="items-container" class="items-container">
+            </div>
+        </div>
     </div>
-    <div id="tarjetaContacto" class="tarjeta" style="display: none;">
+    
+    <div id="menu-card" class="card" style="display: none;">
+        <h1>Sabios</h1>
+        <h3>El que sabe, gana. El que no sabe, aprende…</h3>
+        <hr>
+        <br>
+        <div id="difficulty">
+            <button onclick="selectDifficulty('Fácil')">Fácil</button>
+            <button onclick="selectDifficulty('Medio')">Medio</button>
+            <button onclick="selectDifficulty('Difícil')">Difícil</button>
+        </div>
+        <button onclick="showContact()">Contacto</button>
+        <button onclick="showCredits()">Créditos</button>
+        <button onclick="showAbout()">Sobre el proyecto</button>
+    </div>
+    <div id="contact-card" class="card" style="display: none;">
         <h3>Envíanos comentarios o propuestas a...</h3>
         <h2>joaquinflores0109@gmail.com</h2>
         <hr>
         <br>
-        <button onclick="mostrarTarjetaMenu()">Volver</button>
+        <button onclick="showMenuCard()">Volver</button>
     </div>
-    <div id="tarjetaCreditos" class="tarjeta" style="display: none;">
+    <div id="credits-card" class="card" style="display: none;">
         <h3>Desarrollado por...</h3>
         <h2>Joaquín Flores</h2>
         <hr>
         <br>
-        <button onclick="mostrarTarjetaMenu()">Volver</button>
+        <button onclick="showMenuCard()">Volver</button>
     </div>
-    <div id="tarjetaSobre" class="tarjeta" style="display: none;">
+    <div id="about-card" class="card" style="display: none;">
         <h3>La idea fue...</h3>
         <h2>El que no sabe, aprende…</h2>
         <hr>
         <br>
-        <button onclick="mostrarTarjetaMenu()">Volver</button>
+        <button onclick="showMenuCard()">Volver</button>
     </div>
     
     <script src="scripts/index.js"></script>

@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "name": "Bastón de Aarón",
+    "description": "Números 17, 8: \"Al día siguiente, Moisés entró en la Tienda del Testimonio y vio que la vara de Aarón, correspondiente a la casa de Leví, había brotado: había echado flores, producido botones y dado almendras.\"",
+    "price": 500,
+    "rarity": "Raro",
+    "image": "baston_aaron.png"
+  },
+  {
+    "id": 2,
+    "name": "Tablas de la Ley",
+    "description": "Éxodo 34, 29: \"Cuando Moisés bajó de la montaña del Sinaí, trayendo en sus manos las dos tablas del Testimonio, no sabía que su rostro se había vuelto radiante porque había hablado con el Señor.\"",
+    "price": 1000,
+    "rarity": "Legendario",
+    "image": "tablas_ley.png"
+  },
+  {
+    "id": 3,
+    "name": "Honda de David",
+    "description": "1 Samuel 17, 50: \"Así venció David al filisteo con una honda y una piedra; lo derribó y lo mató sin empuñar la espada.\"",
+    "price": 600,
+    "rarity": "Raro",
+    "image": "honda_david.png"
+  },
+  {
+    "id": 4,
+    "name": "Cáliz de la Última Cena",
+    "description": "Mateo 26, 27-28: \"Después tomó una copa, dio gracias y se la entregó, diciendo: 'Beban todos de ella, porque esta es mi sangre, la sangre de la Alianza, que se derrama por muchos para el perdón de los pecados.'\"",
+    "price": 1200,
+    "rarity": "Legendario",
+    "image": "caliz.png"
+  },
+  {
+    "id": 5,
+    "name": "Arca de Noé",
+    "description": "Génesis 7, 17: \"El Diluvio duró cuarenta días sobre la tierra, las aguas crecieron y elevaron el arca, que se alzó sobre la tierra.\"",
+    "price": 800,
+    "rarity": "Raro",
+    "image": "arca_noe.png"
+  },
+  {
+    "id": 6,
+    "name": "Cruz de Cristo",
+    "description": "Juan 19, 17-18: \"Jesús, cargando con su cruz, salió al sitio llamado 'de la Calavera', que en hebreo se dice Gólgota, donde lo crucificaron.\"",
+    "price": 1500,
+    "rarity": "Legendario",
+    "image": "cruz_cristo.png"
+  },
+  {
+    "id": 7,
+    "name": "Espada de San Miguel",
+    "description": "Apocalipsis 12, 7: \"Entonces se desató una batalla en el cielo: Miguel y sus ángeles combatieron contra el Dragón.\"",
+    "price": 700,
+    "rarity": "Mítico",
+    "image": "espada_miguel.png"
+  },
+  {
+    "id": 8,
+    "name": "Maná del desierto",
+    "description": "Éxodo 16, 15: \"Al ver esto, los israelitas se dijeron unos a otros: '¿Qué es esto?'. Porque no sabían lo que era. Moisés les respondió: 'Este es el pan que el Señor les da como alimento.'\"",
+    "price": 500,
+    "rarity": "Raro",
+    "image": "mana.png"
+  },
+  {
+    "id": 9,
+    "name": "Corona de Espinas",
+    "description": "Mateo 27, 29: \"Tejieron una corona de espinas y se la colocaron en la cabeza; en su mano derecha pusieron una caña, y doblando la rodilla delante de él, se burlaban, diciendo: '¡Salve, rey de los judíos!'\"",
+    "price": 1300,
+    "rarity": "Legendario",
+    "image": "corona_espinas.png"
+  },
+  {
+    "id": 10,
+    "name": "Piedras de la Multiplicación",
+    "description": "Mateo 14, 19-20: \"Tomó los cinco panes y los dos peces, levantó los ojos al cielo, pronunció la bendición, partió los panes y los dio a los discípulos, y ellos los distribuyeron entre la gente. Todos comieron hasta saciarse.\"",
+    "price": 400,
+    "rarity": "Común",
+    "image": "panes_peces.png"
+  },
+  {
+    "id": 11,
+    "name": "Llaves del Reino",
+    "description": "Mateo 16, 19: \"Yo te daré las llaves del Reino de los Cielos. Todo lo que ates en la tierra, quedará atado en el cielo, y todo lo que desates en la tierra, quedará desatado en el cielo.\"",
+    "price": 900,
+    "rarity": "Épico",
+    "image": "llaves_reino.png"
+  },
+  {
+    "id": 12,
+    "name": "Estrella de Belén",
+    "description": "Mateo 2, 9-10: \"La estrella que habían visto en Oriente los precedía, hasta que se detuvo sobre el lugar donde estaba el niño. Al ver la estrella, se llenaron de alegría.\"",
+    "price": 300,
+    "rarity": "Común",
+    "image": "estrella_belen.png"
+  },
+  {
+    "id": 13,
+    "name": "Piedra del Sepulcro",
+    "description": "Mateo 28, 2: \"De pronto, se produjo un gran temblor de tierra: el Ángel del Señor bajó del cielo, hizo rodar la piedra y se sentó sobre ella.\"",
+    "price": 700,
+    "rarity": "Épico",
+    "image": "piedra_sepulcro.png"
+  },
+  {
+    "id": 14,
+    "name": "Túnica de Jesús",
+    "description": "Juan 19, 23-24: \"Los soldados tomaron sus vestiduras e hicieron cuatro partes, una para cada uno; pero su túnica era sin costura, tejida de una sola pieza de arriba abajo.\"",
+    "price": 800,
+    "rarity": "Épico",
+    "image": "tunica_jesus.png"
+  },
+  {
+    "id": 15,
+    "name": "Vara de Moisés",
+    "description": "Éxodo 14, 16: \"Levanta tu bastón, extiende tu mano sobre el mar y divídelo, para que los israelitas entren en medio del mar sobre terreno seco.\"",
+    "price": 900,
+    "rarity": "Épico",
+    "image": "vara_moises.png"
+  },
+  {
+    "id": 16,
+    "name": "Denario de César",
+    "description": "Mateo 22, 19-21: \"Muéstrenme la moneda del impuesto. Le presentaron un denario, y él les preguntó: '¿De quién es esta imagen y la inscripción?'. 'Del César', respondieron. Entonces les dijo: 'Den al César lo que es del César y a Dios lo que es de Dios'.\"",
+    "price": 300,
+    "rarity": "Común",
+    "image": "denario_cesar.png"
+  }
+]
