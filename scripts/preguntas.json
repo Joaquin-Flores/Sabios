@@ -54,6 +54,7 @@
       ],
       "Difícil": [
         { "pregunta": "¿Cuál es la principal diferencia entre transubstanciación y consubstanciación?", "respuestas": ["La presencia real de Cristo en la Eucaristía", "La duración del efecto sacramental", "El modo en que se administra la comunión", "El número de veces que se puede recibir"], "correcta": 0 },
+        { "pregunta": "¿Qué naturalezas se unen en una persona por la 'Unión Hipostática'?", "respuestas": ["Mortal e Inmortal", "Animal y Racional", "Divina y Humana", "Santa y Caída"], "correcta": 2 },
         { "pregunta": "¿Qué significa 'consubstancial' en el Credo de Nicea?", "respuestas": ["De la misma esencia", "Inferior en naturaleza", "Separado pero similar", "Cercano en divinidad"], "correcta": 0 },
         { "pregunta": "¿Qué concilio definió la infalibilidad papal?", "respuestas": ["Vaticano I", "Trento", "Nicea II", "Lateranense IV"], "correcta": 0 },
         { "pregunta": "¿Qué significa la palabra 'Misterio'?", "respuestas": ["Exceso de luz", "Oscuridad", "Inenteligible", "Grande"], "correcta": 0 },
